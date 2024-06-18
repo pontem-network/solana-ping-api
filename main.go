@@ -27,7 +27,7 @@ type ClustersToRun string
 const (
 	MainnetBeta Cluster = "MainnetBeta"
 	Testnet             = "Testnet"
-	Devnet              = "Devnet"
+	Devnet      		= "Devnet"
 )
 
 var influxdb *InfluxdbClient
@@ -40,7 +40,7 @@ const (
 	RunMainnetBeta ClustersToRun = "mainnet"
 	RunTestnet                   = "testnet"
 	RunDevnet                    = "devnet"
-	RunAllClusters               = "all"
+	RunAllClusters  			 = "all"
 )
 
 func init() {
